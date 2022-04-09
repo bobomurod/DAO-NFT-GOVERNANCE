@@ -1,0 +1,29 @@
+{
+  "name": "dao-nft-governance",
+  "version": "1.0.0",
+  "description": "DAO based on voting with NFT (ERC721 and ERC1155)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobomurod/DAO-NFT-GOVERNANCE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobomurod/DAO-NFT-GOVERNANCE/issues"
+  },
+  "homepage": "https://github.com/bobomurod/DAO-NFT-GOVERNANCE#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.6.2",
+    "hardhat": "^2.9.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.5.0",
+    "dotenv": "^16.0.0"
+  }
+}
